@@ -51,7 +51,7 @@ modifiers that were targeted at the objects. Important considerations were made 
   <tr style="border: none;">
     <td style="text-align: left; border: none;" width="50%">
       <p align="justify" style>
-        The evaluation of saliency detection algorithms and frameworks is one of the main aims of this paper. For this aim to be reached, the color images and their corresponding depth maps and objects masks were required to be accompanied by data so that it can illustrate better how humans can relate to the dataset. This was achieved through the use of an online test that was designed to reach this objective. </br></br> The main aim behind this experiment was to present the users with a color image from the dataset and analyze which region within the image they believe is the most salient. </br></br> The multi-level <strong>Data-Flow diagram</strong> presented on the right displays the main modules of the aforementioned architecture.
+        The evaluation of saliency detection algorithms and frameworks is one of the main aims of this paper. For this aim to be reached, the color images and their corresponding depth maps and objects masks were required to be accompanied by data so that it can illustrate better how humans can relate to the dataset. This was achieved through the use of an online test that was designed to reach this objective. </br></br> The main aim behind this experiment was to present the users with a color image from the dataset and analyze which region within the image they believe is the most salient. </br></br> The multi-level <strong>Data-Flow diagram</strong> presented on the right displays the main architectural modules of the aforementioned process.
       </p>
     </td>
     <td style="text-align: right;">
@@ -82,7 +82,24 @@ The average annotation map of the MSRA10K dataset shows that the salient objects
   </tr>
 </table>
 
+## Dataset Usage
+### Inpainting
+The COTS dataset is ideal for comparing different inpainting techniques. The pipeline of usage of the aforementioned dataset can be seen below:
+<p align="center">
+  <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/6aff0d13-ff9f-41e7-ba81-a99e5d1f5e3f" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+</p>
 
+### Blending
+The COTS dataset can also be used to evaluate content blending or addition techniques in a similar manner to inpainting techniques. The pipeline of usage of the aforementioned dataset can be seen below:
+<p align="center">
+  <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/4bb70e85-11e7-42f3-8f10-402f77d6bc58" style="display: block; margin: 0 auto; width: 40%; height: auto;">
+</p>
+
+## Future Work
+This dataset also provides a number of opportunities in evaluating modern computer vision techniques and architectures. COTS is being made available for free for everyone to use as an open-source project. This current version of the COTS dataset is focused on a plain green background. This was originally intended to allow for chroma-key background replacement and therefore increase the variety and complexity of the data. Future iterations of this dataset can potentially include a set of scenes with more a more complex natural background that would increase the evaluation possibilities upon it.
+
+## Acknowledgements
+The authors would like to thank Mr. Ryan Azzopardi, the professional photographer who assisted the team in the setting up of the studio and with the provision of lighting equipment for this setup. They also thankful to all the anonymous 1267 participants of the online test who dedicated time to go through the process and provide such precious feedback and information.
 
 ## Citation
 To cite this paper, kindly use the following citation:
