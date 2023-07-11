@@ -83,6 +83,12 @@ The average annotation map of the MSRA10K dataset shows that the salient objects
 </table>
 
 ## Dataset Usage
+### Saliency
+The COTS dataset is an excellent resource for evaluating saliency ranking techniques. An example of its use can be seen below:
+<p align="center">
+  <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/5f115083-c140-4303-9f1a-ade61dae4b9d" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+</p>
+
 ### Inpainting
 The COTS dataset is ideal for comparing different inpainting techniques. The pipeline of usage of the aforementioned dataset can be seen below:
 <p align="center">
