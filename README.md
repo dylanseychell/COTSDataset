@@ -42,7 +42,46 @@ The recordings took place in an indoor environment without any external natural 
 modifiers that were targeted at the objects. Important considerations were made to ensure that the auxiliary lighting being used in the scene were not generating infra-red noise that would possibly affect negatively the quality of the captured depth map. In addition, a designated region on the surface was marked so that every object is placed within this region as this mark falls precisely within the camera’s field of view. Moreover, the configuration of the scene was measured and recorded, keeping the setup constant throughout the scene capturing process.
 
 ## Depth Maps
-![seych5-3055647-large](https://github.com/mbar0075/COTSDataset/assets/103250564/e9ba9063-6b9a-4359-b8ae-92760e06149a)
+<p align="center">
+  <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/e9ba9063-6b9a-4359-b8ae-92760e06149a" style="display: block; margin: 0 auto; width: 70%; height: auto;">
+</p><br>
+
+## Online Test
+<table style="border: none;">
+  <tr style="border: none;">
+    <td style="text-align: left; border: none;" width="50%">
+      <p align="justify" style>
+        The evaluation of saliency detection algorithms and frameworks is one of the main aims of this paper. For this aim to be reached, the color images and their corresponding depth maps and objects masks were required to be accompanied by data so that it can illustrate better how humans can relate to the dataset. This was achieved through the use of an online test that was designed to reach this objective. </br></br> The main aim behind this experiment was to present the users with a color image from the dataset and analyze which region within the image they believe is the most salient. </br></br> The multi-level <strong>Data-Flow diagram</strong> presented on the right displays the main modules of the aforementioned architecture.
+      </p>
+    </td>
+    <td style="text-align: right;">
+      <p align="center">
+      <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/7f0dcc10-d2a3-4cda-82b8-c937e9febbde" alt="Image" width="60%" style="display: block; margin: 0 auto;">
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Annotation Maps
+The average annotation map of the MSRA10K dataset shows that the salient objects in this dataset are biased towards its center. This bias was also considered in the design of the COTS dataset and as demonstrated below, this was mitigated accordingly by spreading salient objects further within the scene.
+
+<table style="border: none;">
+  <tr style="border: none;">
+    <td style="text-align: left; border: none;" width="50%">
+      <p align="center">
+        <strong>COTS Dataset</strong></br>
+      <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/fb749c28-9278-4a0a-bbc0-4aba69631882" alt="Image" width="60%" style="display: block; margin: 0 auto;">
+      </p>
+    </td>
+    <td style="text-align: right;">
+      <p align="center">
+        <strong>MSRA10K Dataset</strong></br>
+      <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/8a168784-793e-46a4-a471-0e89850149a4" alt="Image" width="45%" height="70%" style="display: block; margin: 0 auto;">
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 
 ## Citation
