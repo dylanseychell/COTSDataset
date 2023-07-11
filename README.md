@@ -8,6 +8,10 @@
   <strong>"a multipurpose RGB-D dataset that enables the evaluation of a pipelined solution"</strong>
 </p>
 
+
+https://github.com/mbar0075/COTSDataset/assets/103250564/14d67cbc-544c-4c87-aa19-3d851be1c52f
+
+
 ## Abstract
 *Many modern computer vision systems include several modules that perform different
 processing operations packaged as a single pipeline architecture. This generally introduces a challenge in
