@@ -120,6 +120,29 @@ This dataset also provides a number of opportunities in evaluating modern comput
 The authors would like to thank Mr. Ryan Azzopardi, the professional photographer who assisted the team in the setting up of the studio and with the provision of lighting equipment for this setup. They also thankful to all the anonymous 1267 participants of the online test who dedicated time to go through the process and provide such precious feedback and information.
 </p>
 
+## Accessing Dataset
+To access this dataset, kindly use the following code:
+
+```python
+# Packages Install
+!pip install gitpython
+import git
+import shutil
+import os
+
+# Cloning repository
+repo_url = 'https://github.com/dylanseychell/COTSDataset.git'
+repo_dir = 'COTSDataset'  # Directory to clone the repository into
+git.Repo.clone_from(repo_url, repo_dir)
+
+# Defining paths
+part1_single_objects = os.path.join(repo_dir, "Part 1 - Single Objects")
+part2_multiple_objects = os.path.join(repo_dir, "Part 2 - Multiple Objects")
+part3_complex_background = os.path.join(repo_dir, "Part 3 - Complex Background")
+
+print("Repository cloned successfully.")
+```
+
 ## Citation
 To cite this paper, kindly use the following citation:
 
