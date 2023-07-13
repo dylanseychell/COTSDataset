@@ -9,7 +9,7 @@
 </p>
 
 
-https://github.com/mbar0075/COTSDataset/assets/103250564/14d67cbc-544c-4c87-aa19-3d851be1c52f
+https://github.com/mbar0075/COTSDataset/assets/103250564/b8be54dd-35f6-40c0-bdc6-8c419f08ac06
 
 
 ## Abstract
@@ -103,6 +103,21 @@ The COTS dataset is ideal for comparing different inpainting techniques. The pip
 <p align="center">
   <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/6aff0d13-ff9f-41e7-ba81-a99e5d1f5e3f" style="display: block; margin: 0 auto; width: 40%; height: auto;">
 </p>
+
+The following paper demonstrates how the COTS dataset can be used to objectively evaluate inpainting algorithms and make results more comparable:
+```bib
+@INPROCEEDINGS{9140597,
+  author={Seychell, Dylan and Debono, Carl J.},
+  booktitle={2020 IEEE 20th Mediterranean Electrotechnical Conference ( MELECON)}, 
+  title={An Approach for Objective Quality Assessment of Image Inpainting Results}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={226-231},
+  doi={10.1109/MELECON48756.2020.9140597}}
+
+```
+Additionally, this paper is also available on IEEE: https://ieeexplore-ieee-org.ejournals.um.edu.mt/document/9140597
 
 ### Blending
 The COTS dataset can also be used to evaluate content blending or addition techniques in a similar manner to inpainting techniques. The pipeline of usage of the aforementioned dataset can be seen below:
