@@ -49,6 +49,10 @@ The recordings took place in an indoor environment without any external natural 
 modifiers that were targeted at the objects. Important considerations were made to ensure that the auxiliary lighting being used in the scene were not generating infra-red noise that would possibly affect negatively the quality of the captured depth map. In addition, a designated region on the surface was marked so that every object is placed within this region as this mark falls precisely within the camera’s field of view. Moreover, the configuration of the scene was measured and recorded, keeping the setup constant throughout the scene capturing process.
 </p>
 
+<p align="center">
+  <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/99b2098c-408d-4270-aad5-d2ec2d01ea8d" style="display: block; margin: 0 auto; width: 70%; height: auto;">
+</p><br>
+
 ## Depth Maps
 <p align="center">
   <img src="https://github.com/mbar0075/COTSDataset/assets/103250564/e9ba9063-6b9a-4359-b8ae-92760e06149a" style="display: block; margin: 0 auto; width: 70%; height: auto;">
