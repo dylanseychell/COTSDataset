@@ -152,7 +152,14 @@ import os
 # Cloning repository
 repo_url = 'https://github.com/dylanseychell/COTSDataset.git'
 repo_dir = 'COTSDataset'  # Directory to clone the repository into
-git.Repo.clone_from(repo_url, repo_dir)
+
+# Checking if the repository directory already exists
+if not os.path.exists(repo_dir):
+    # Cloning repository
+    git.Repo.clone_from(repo_url, repo_dir)
+    print("Repository cloned successfully.")
+else:
+    print("Repository already cloned.")
 
 # Defining paths
 part1_single_objects = os.path.join(repo_dir, "Part 1 - Single Objects")
