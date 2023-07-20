@@ -185,5 +185,5 @@ To cite this paper, kindly use the following citation:
 
 ```
 
-The paper associated with the COTS dataset is available on IEEE: https://ieeexplore.ieee.org/document/9340352
+The paper associated with the COTS dataset is available for free as an open-access paper on IEEE: https://ieeexplore.ieee.org/document/9340352
 
